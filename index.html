@@ -1,9 +1,36 @@
 <html>
 <head>
 	<title>R & G Are Dead</title>
+
+	<link rel="stylesheet" href="impress.css" />
 </head>
 <body>
-	Things go here.
+	<div id="impress">
+		<div class="step real-step" data-y="-1500">
+			<h2>heads.</h2>
+		</div>
+		<div class="step">
+			<img src="rope.png" />
+		</div>
+		<div class="step always" data-x="-500" data-y="-800">
+			<p style="font-size:30">
+			Rosencrantz and Guildenstern are Dead is centered<br> 
+			around themes of death, ambiguity,<br>
+			and the search for identity in a predestined world.
+			</p>
+		</div>
+		<div class="step real-step" data-y="-800">
+				<img src="coin.png" style="padding-left:300px"/>
+		</div>
+
+	</div>
+	<script src="jquery.min.js"></script>
+	<script type="text/javascript" src="impress.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+	<script type="text/javascript">
+		impress().init();
+		slideNavigator.init();
+	</script>
 </body>
 </html>
 
