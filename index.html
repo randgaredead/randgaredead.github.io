@@ -1,31 +1,34 @@
 <html>
 <head>
+	<meta name="viewport" content="width=1024" />
 	<title>R & G Are Dead</title>
 
 	<link rel="stylesheet" href="impress.css" />
-	<link rel="stylesheet" href="bootstrap.min.css" />
+	<link rel="stylesheet" href="bootstrap.css" />
 </head>
 <body>
 	<div id="impress">
-		<div class="step real-step" data-y="-2500">
+		<div class="step real-step" id="heads" data-y="-2700">
 			<h2>heads.</h2>
+			<h4><small>Ellisa Barnett<br>Colby Brown<br>Francine Lapid<br>Jake Metzler</small></h4>
 		</div>
 		<div class="step">
 			<img src="rope.png" />
 		</div>
 
-		<div class="step always" data-x="-500" data-y="-1800">
-			<p style="font-size:30">
-			Rosencrantz and Guildenstern are Dead is centered<br> 
-			around themes of death, ambiguity,<br>
-			and the search for identity in a predestined world.
-			</p>
+		<div class="step always" data-x="-550" data-y="-1800">
+			<blockquote class="blockquote-reverse">
+			Rosencrantz and Guildenstern are Dead<br>
+			is centered around themes of<br>
+			death, ambiguity, and the search<br>
+			for identity in a predestined world.<br>
+			</blockquote>
 		</div>
-		<div class="step real-step" data-y="-1800">
-				<img src="coin_head.png" style="padding-left:300px"/>
+		<div class="step real-step" id="coins" data-y="-1800">
+				<img src="coin_head.png" style="padding-left:350px"/>
 		</div>
 
-		<div class="step always" data-x="-700" data-y="-1100">
+		<div class="step always" data-x="-600" data-y="-1100">
 			<blockquote class="blockquote-reverse">
 				I wonder what keeps us so high up,<br>
 				Could there be love beneath these wings?<br>
@@ -38,20 +41,20 @@
 				Yes, this fear's got a hold on me.<br>
 			</blockquote>
 		</div>
-		<div class="step real-step" data-y="-1100" style="padding-left:400px">
+		<div class="step real-step" id="death" data-y="-1100" style="padding-left:400px">
 				<h1>Death <small>by White Lies</small></h1>
 				<audio controls>
 					<source src="death.mp3" type="audio/mp3">
 				</audio>
 		</div>
 
-		<div class="step always" data-x="-200" data-y="-100">
+		<div class="step always" data-x="-100" data-y="-100">
 			<h1>Yet Again <small>by Grizzly Bear</small></h1>
 			<audio controls>
 				<source src="yetagain.mp3" type="audio/mp3">
 			</audio>
 		</div>
-		<div class="step real-step" data-y="-100" style="padding-left:400px">
+		<div class="step real-step" id="yetagain" data-y="-100" style="padding-left:400px">
 			<blockquote>
 				Shell with another crack<br>
 				I'm small but I can keep track<br>
@@ -68,7 +71,7 @@
 			</blockquote>
 		</div>
 
-		<div class="step always" data-y="600" data-x="-700">
+		<div class="step always" data-y="600" data-x="-600">
 			<blockquote class="blockquote-reverse">
 				There's a light in the bedroom<br>
 				But it's dark<br>
@@ -86,20 +89,20 @@
 				Ay-ay, ay-ay, ay-ay<br>
 			</blockquote>
 		</div>
-		<div class="step real-step" data-y="600" style="padding-left:400px">
+		<div class="step real-step" id="gethome" data-y="600" style="padding-left:400px">
 			<h1>Get Home <small>by Bastille</small></h1>
 			<audio controls>
 				<source src="gethome.mp3" type="audio/mp3">
 			</audio>
 		</div>
 
-		<div class="step always" data-y="1300" data-x="-300">
+		<div class="step always" data-y="1300" data-x="-200">
 			<h1>Doubt Comes In <small> by Anais Mitchell</small></h1>
 			<audio controls>
 				<source src="doubtcomesin.mp3" type="audio/mp3">
 			</audio>
 		</div>
-		<div class="step real-step" data-y="1300" style="padding-left:400px">
+		<div class="step real-step" id="doubtcomesin" data-y="1300" style="padding-left:350px">
 			<blockquote>
 				<strong>ORPHEUS & FATES</strong><br>
 				Doubt comes in<br>
@@ -113,7 +116,7 @@
 				<strong>EURYDICE</strong><br>
 				Orpheus<br>
 				You're shivering<br>
-				Is it cold or fear?<br>
+				Is it cold or fear?<br> 
 				Just keep singing<br>
 				The coldest night<br>
 				Of the coldest year<br>
@@ -121,7 +124,7 @@
 			</blockquote>
 		</div>
 
-		<div class="step always" data-y="2000" data-x="-700">
+		<div class="step always" data-y="2000" data-x="-600">
 			<blockquote class="blockquote-reverse">
 				Waves crash along<br>
 				The battered, lonely lighthouse<br>
@@ -137,7 +140,7 @@
 				And don't think about it all<br>
 			</blockquote>
 		</div>
-		<div class="step real-step" data-y="2000" style="padding-left:400px">
+		<div class="step real-step" id="soldieron" data-y="2000" style="padding-left:400px">
 			<h1>Soldier On <small>by The Temper Trap</small></h1>
 			<audio controls>
 				<source src="soldieron.mp3" type="audio/mp3">
@@ -156,8 +159,8 @@
 			<img src="colby.png" />
 		</div>
 
-		<div class="step real-step" data-y="3300">
-			<p class="lead">
+		<div class="step real-step" id="end" data-y="3300" data-x="-170">
+			<p class="lead text-center">
 				There must have been a moment, at the beginning, where we could have said -- no.<br>
 				But somehow we missed it.
 			</p>
